@@ -3,13 +3,14 @@ import './App.css';
 import Navbar from './sections/Navbar/Navbar';
 import Header from './sections/header/Header';
 import About from './sections/About/About';
-import Contact from './sections/contact/Contact';
-import Services from './sections/services/Services';
-import Portfolio from './sections/portfolio/Portfolio';
-import Testmonial from './sections/testmonials/Testmonial';
-import FAQS from './sections/faq/FAQS';
-import Footer from './sections/footer/Footer';
-import FloatingNav from './sections/floating-nav/FloatingNav';
+import Experience from './sections/Experience/Experience';
+// import Contact from './sections/contact/Contact';
+// import Services from './sections/services/Services';
+// import Portfolio from './sections/portfolio/Portfolio';
+// import Testmonial from './sections/testmonials/Testmonial';
+// import FAQS from './sections/faq/FAQS';
+// import Footer from './sections/footer/Footer';
+// import FloatingNav from './sections/floating-nav/FloatingNav';
 
 function App() {
   return (
@@ -17,13 +18,14 @@ function App() {
     <Navbar />
     <Header />
     <About />
-    <Services />
+    <Experience />
+    {/* <Services />
     <Portfolio />
     <Testmonial />
     <FAQS />
     <Contact />
     <Footer />
-    <FloatingNav />
+    <FloatingNav /> */}
    </main>
   );
 }

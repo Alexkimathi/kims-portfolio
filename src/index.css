@@ -22,6 +22,9 @@ code {
 }
 
 :root{
+  --color-bg-variant: #1919b7b5;
+  --color-bg: #1f1f38;
+  --color-primary-variant: rgba(77,181,255,0.4);
   --primary-hue: 270;
   --black-lightness:15%;
   --dark-lightness:44%;
@@ -52,6 +55,8 @@ body{
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   font-size: 0.9rem;
+
+ 
 }
 .container{
   width: var(--container-width-lg);

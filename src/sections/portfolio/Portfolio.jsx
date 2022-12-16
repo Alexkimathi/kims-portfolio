@@ -19,9 +19,9 @@ function Portfolio() {
 
           </div>
           <h3>This is a Portfolio</h3>
-          <div className='header__cta'>
+          <div className='profile__cta'>
           <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
-          <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Live Demo</a>
+          <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
 
           </div>
         </article>
@@ -32,9 +32,9 @@ function Portfolio() {
 
           </div>
           <h3>This is a Portfolio</h3>
-          <div className='header__cta'>
+          <div className='profile__cta'>
           <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
-          <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Live Demo</a>
+          <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
 
           </div>
         </article>
@@ -45,9 +45,9 @@ function Portfolio() {
 
           </div>
           <h3>This is a Portfolio</h3>
-          <div className='header__cta'>
+          <div className='profile__cta'>
           <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
-          <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Live Demo</a>
+          <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
 
           </div>
          

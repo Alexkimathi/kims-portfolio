@@ -187,9 +187,14 @@ h6{
   .btn{
     padding: 0.6rem 1.5rem;
   }
-  secttion > p{
+  .secttion > p{
     width: var(--container-width-md);
     margin-top: 1rem;
+  }
+  .btn{
+    /* width: max-content; */
+    padding: 0.2rem 1rem;
+    border: 1px solid transparent;
   }
   
 }

@@ -6,7 +6,7 @@ import About from './sections/About/About';
 import Experience from './sections/Experience/Experience';
 // import Contact from './sections/contact/Contact';
 // import Services from './sections/services/Services';
-// import Portfolio from './sections/portfolio/Portfolio';
+import Portfolio from './sections/portfolio/Portfolio';
 // import Testmonial from './sections/testmonials/Testmonial';
 // import FAQS from './sections/faq/FAQS';
 // import Footer from './sections/footer/Footer';
@@ -19,9 +19,9 @@ function App() {
     <Header />
     <About />
     <Experience />
-    {/* <Services />
+    {/* <Services /> */}
     <Portfolio />
-    <Testmonial />
+    {/* <Testmonial />
     <FAQS />
     <Contact />
     <Footer />

@@ -37,8 +37,9 @@ code {
   --color-dark:hsl(var(--primary-hue),,5%, var(--light-lightness));
 
   /*general containers variable*/
-  --container-width-lg: 76%;
-  --container-width-md: 90%;
+  --container-width-lg: 90%;
+  --container-width-md: 86%;
+  --container-width-ms:90%
 
   /*boeder radius variables*/
   --border-radius-1: 1.2rem;
@@ -56,23 +57,31 @@ body{
   line-height: 1.6;
   font-size: 0.9rem;
 
- 
 }
+
 .container{
   width: var(--container-width-lg);
-  margin-inline:  auto;
-  max-width: 1920px;
+  margin:0  auto;
+  /* max-width: 1920px; */
 }
 section{
-  padding: 10rem 0;
+  margin-top: 8rem;
+  padding: 5rem 0;
   background: var(--color-light);
   transition: var(--transition);
-}
+} 
 section:nth-child(even){
   background: var(--color-white);
 }
 section > h2{
   text-align: center;
+  color: var(--color-black);
+  margin-bottom: 3rem;
+}
+section > h5{
+  text-align: center;
+  color: var(--color-black);
+  margin-bottom: 1rem;
 }
 section > p{
   text-align: center;
@@ -81,17 +90,21 @@ section > p{
 }
 
 a{
-  color: var(--color-white);
+  color: var(--color-primary);
   transition: var(--transition);
+}
+a:hover{
+  color: var(--color-white);
 }
 
 h1,h2,h3,h4,h5,h6{
   line-height: 1.1;
   color: var(--color-black);
+  font-weight: 500;
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h2{
   font-size: 2rem;
@@ -144,8 +157,9 @@ h6{
 }
 .btn.primary{
   background: var(--color-primary);
-  color: white;
+  color: var(--color-bg);
 }
+
 .btn.btn.primary:hover{
   background: transparent;
   border-color: var(--color-primary);
@@ -175,6 +189,7 @@ h6{
   }
   secttion > p{
     width: var(--container-width-md);
+    margin-top: 6rem;
   }
   
 }
@@ -185,14 +200,15 @@ h6{
     font-size: 1rem;
   }
   .container{
-    width: var(--container-width-md);
+    width: var(--container-width-sm);
   }
-  section{
+  section > h2{
     padding: 8rem 0;
+    margin-top: 6rem;
   }
   section > p{
-    width: 72%;
-    margin-bottom: 3rem;
+    /* width: 72%; */
+    margin-bottom: 2rem;
   }
   h1{
     font-size: 2rem;

@@ -1,0 +1,23 @@
+.portfolio__container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+.portfolio__item{
+    background-color: rgb(142, 142, 247);
+    padding: 1.3rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.portfolio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+.links{
+    display: flex;
+}

@@ -18,7 +18,20 @@ function Portfolio() {
             <img src={img1} alt="portfolio" />
 
           </div>
-          <h3>This is a Portfolio</h3>
+     
+          <div className='profile__cta'>
+          <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
+          <a href='https://github.com/Alexkimathi/ReceipeApp' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
+
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={img2} alt="portfolio" />
+
+          </div>
+        
           <div className='profile__cta'>
           <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
           <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
@@ -31,20 +44,7 @@ function Portfolio() {
             <img src={img2} alt="portfolio" />
 
           </div>
-          <h3>This is a Portfolio</h3>
-          <div className='profile__cta'>
-          <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
-          <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>
-
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={img2} alt="portfolio" />
-
-          </div>
-          <h3>This is a Portfolio</h3>
+   
           <div className='profile__cta'>
           <a href='https://github.com' className='btn btn primary' target='_blank'  rel="noopener noreferrer">Github</a>
           <a href='https://github.com' className='btn' target='_blank'  rel="noopener noreferrer">Live Demo</a>

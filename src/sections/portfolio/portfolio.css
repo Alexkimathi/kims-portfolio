@@ -4,6 +4,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 2rem;
+
     
 }
 .portfolio__item{
@@ -22,6 +23,7 @@
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+  
 }
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;
@@ -39,24 +41,26 @@
 
 /*phones*/
 
-@media screen and(max-width:600px) {
-    .portfolio__container{
-       grid-template-columns: 1fr;
-       gap: 1rem;
-        
+@media screen and (max-width:600px) {
+    .portfolio__item{
+        width: 130%;
     }
-
-   
- 
-    
-  }
+    .btn{
+        padding: 1rem;
+    }
   
+  
+
+}
   /*tablet*/
   @media screen and (max-width:1024px) {
-   .portfolio__container{
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-   }
+    .portfolio__item{
+        width: 130%;
+    }
+    .btn{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
 
 
   }

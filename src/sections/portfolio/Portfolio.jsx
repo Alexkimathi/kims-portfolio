@@ -6,6 +6,8 @@ import img1 from  '../../images/portfolio.jpeg'
 import img2 from  '../../images/Survey.jpeg'
 import img3 from  '../../images/Recipe.jpeg'
 
+
+
 function Portfolio() {
   return (
     <section id="portfolio">

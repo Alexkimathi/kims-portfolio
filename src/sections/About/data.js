@@ -3,9 +3,9 @@ import {TbBooks} from 'react-icons/tb'
 import {BiHappyHeartEyes} from 'react-icons/bi'
 
 const data =[
-    {id: 1, icon: <FaAward />, title: 'Experience', desc: '1 years of work Experience'},
+    {id: 1, icon: <FaAward />, title: 'Experience', desc: '3 years of work Experience'},
     {id: 2, icon: <TbBooks />, title: 'Projects', desc: '5 Completed'},
-    {id: 3, icon: <BiHappyHeartEyes />, title: 'Clients', desc: '2 happy client'},
+    {id: 3, icon: <BiHappyHeartEyes />, title: 'Clients', desc: '5 happy client'},
 ]
 
 export default data

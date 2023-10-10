@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import aboutImage from "../../images/Frame.png";
-import cv from "../../assests/cv.pdf";
+import cv from "../../assests/resume.pdf";
 import { HiDownload } from "react-icons/hi";
 import Card from "../../components/Card";
 import data from "./data";
